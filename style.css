@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+#main{
+    overflow: hidden;
+   position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+#left{
+    position: relative;
+  width: 8%;
+  height: 100%;
+  background-color: rgba(8, 8, 77, 0.945);
+}
+#left h1{
+    font-family: Gilroy;
+    font-size: 40px;
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    color: #fff;
+}
+#left i{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+    color: #fff;
+}
+#right{
+  width: 92%;
+  height: 100%;
+  background-color: black;
+ 
+}
+
+#rtop{
+  display: flex;
+  width: 100%;
+  height: 80%;
+  background-color: black;
+}
+#rbtm{
+  width: 100%;
+  height: 20%;
+  background-image: url(https://images.unsplash.com/photo-1638294946964-cff87bac314f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-position: center;
+  background-size: cover;
+}
+#rleft{
+    position: relative;
+    width: 85%;
+    height: 100%;
+    background-color: black;
+    
+}
+
+#rleft #text{
+    position: absolute;
+  bottom: 30%;
+   left: 25%;
+    width: 20%;
+    height: 40%;
+    background-color:rgba(233, 13, 13, 0);
+    
+}
+#text h1{
+    position: relative;
+    z-index: 9;
+    font-size: 100px;
+    font-family: Gilroy;
+    line-height: 80px;
+    color: #fff;
+   
+}
+#rleft #circle1{
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    background-color: rgb(170, 32, 32);
+  position: absolute;
+  top: -40%;
+  left: -45%;
+ 
+}
+#rleft #circle2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: rgb(231, 47, 47);
+  position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ 
+}
+#rleft #circle3{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+  position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ 
+}
+ #text1{
+    margin-left: 360px;
+    margin-top: 20px;
+    transform-origin: 0% 0%;
+    transform: rotate(90deg);
+ }
+#rright{
+    position: relative;
+    width: 15%;
+    height: 100%;
+    background-color: darkred;
+}
+#right #one{
+    font-family: Gilroy;
+    font-size: 13px;
+    color: #fff; 
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%,0%);
+   
+
+}
+#right #two{
+    font-family: Gilroy;
+    font-size: 13px;
+    color: #fff; 
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%,0%);
+   
+
+}
+#right #three{
+    font-family: Gilroy;
+    font-size: 13px;
+    color: #fff; 
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%,0%);
+   
+
+}
+#right #four{
+    font-family: Gilroy;
+    font-size: 13px;
+    color: #fff; 
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%,0%);
+   
+
+}
+#ci{
+    position: absolute;
+    right: 15%;
+    top: 5%;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+#rright i{
+   
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+@keyframes aditi{
+  0%{
+      top: 10%;
+  }
+  50%{
+      top: 70%;
+  }
+  100%{
+      top: 10%;
+}
+}
+#circle{
+    position: absolute;
+    top: 20%;
+    left: -30px;
+    width: 60px;
+    height: 60px;
+   background-image: url(https://images.unsplash.com/photo-1643132652697-989a82c0be66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=363&q=80);
+   background-position: center;
+   background-size: cover;
+   animation:aditi 7s cubic-bezier(0.19, 1, 0.22, 1)  infinite  both;
+    border-radius: 50%;
+}
+#c1{
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: #fff;
+    position: absolute;
+    top: 40%;
+    left: -12px;
+
+}
+#c2{
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: #fff;
+    position: absolute;
+    top: 60%;
+    left: -12px;
+
+}
+#c3{
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: #fff;
+    position: absolute;
+    top: 80%;
+    left: -12px;
+
+}
+#right img{
+    position: absolute;
+    right: 17%;
+    bottom:-15% ;
+    width: 33%;
+   height: 100%;
+   z-index: 9;
+}
+#text p{
+    position: absolute;
+    color: #fff;
+   bottom: -10%;
+   left: -10%;
+   font-family:Gilroy;
+   font-size: 12px;
+  
+}
